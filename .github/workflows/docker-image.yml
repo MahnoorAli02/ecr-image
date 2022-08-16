@@ -48,7 +48,7 @@ jobs:
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
       with:
-          task-definition: My_taskdefinition:1
+          task-definition: task-definition.json
           service: My_Service
           cluster: Mahnoor_cluster
           wait-for-service-stability: true
