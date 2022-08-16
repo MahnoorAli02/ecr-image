@@ -42,7 +42,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-          task-definition: task-definition.json
+          task-definition: My_taskdefinition:1
           container-name: My_Container
           image: 678878256416.dkr.ecr.us-east-1.amazonaws.com/ecr-image@sha256:caa772beb3f386c22b0b402590173973bd663d5e51ea58686bfe29d7ffff7562
 
