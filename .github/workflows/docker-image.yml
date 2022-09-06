@@ -51,7 +51,7 @@ jobs:
       with:
           task-definition: task-definition.json
           container-name: my_container 
-          image: 678878256416.dkr.ecr.us-east-1.amazonaws.com/ecr-image:latest-2022-09-06
+          image: 678878256416.dkr.ecr.us-east-1.amazonaws.com/ecr-image:latest
           
     - name: Deploy Amazon ECS task definition
       uses: aws-actions/amazon-ecs-deploy-task-definition@v1
